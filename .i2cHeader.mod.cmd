@@ -1,0 +1,1 @@
+cmd_/home/Guilherme/programerC++/kernel-module/i2cHeader.mod := printf '%s\n'   kernel_modulei2c.o driver_device.o | awk '!x[$$0]++ { print("/home/Guilherme/programerC++/kernel-module/"$$0) }' > /home/Guilherme/programerC++/kernel-module/i2cHeader.mod

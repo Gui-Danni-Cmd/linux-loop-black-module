@@ -1,0 +1,1 @@
+cmd_/home/Guilherme/programerC++/kernel-module/Module.symvers :=  sed 's/ko$$/o/'  /home/Guilherme/programerC++/kernel-module/modules.order | scripts/mod/modpost  -a   -N -o /home/Guilherme/programerC++/kernel-module/Module.symvers -n -e -i Module.symvers -T - 
